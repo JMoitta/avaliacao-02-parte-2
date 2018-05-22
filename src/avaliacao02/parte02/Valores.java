@@ -20,8 +20,8 @@ public class Valores implements ValoresITF {
 	@Override
 	public int del(int i) {
 		if(size() == 0) return -1;
+		if(!(i < size()))return -1;
 		int retorno = inteiros[i];
-		inteiros[i] = 0;
 		for(int j = i; j < size(); j++) {
 			inteiros[j] = inteiros[j+1];
 		}
