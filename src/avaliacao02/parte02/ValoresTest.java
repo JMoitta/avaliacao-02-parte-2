@@ -65,7 +65,7 @@ public class ValoresTest {
 	}
 	
 	@Test
-	public void tentaDeletarIndiceEmListaVazia() {
+	public void tentarDeletarEmIndiceVazio() {
 		// 21 22 -1
 		
 		valores.ins(7);
